@@ -2,7 +2,7 @@
 
 - **.drop_duplictes()** atau **.drop_duplicates(['nama_kolom'])** : menghapus data yang duplikat
 - **.sort_values('...', ascending=False)** : sort data dari yang terakhir
-- **.isnull().sum().sum()** : mengetahui jumlah totat missing value
+- **.isnull().sum().sum()** : mengetahui jumlah total missing value
 - **.isnull().sum()** : mengetahui jumlah missing value perkolom
 - **.isnull().values.any()** : mengecek adakah missing value. True=Ada. False=Tidak ada.
 - **.dropna(subset=['nama_kolom'], inplace=True)** : hapus semua data missing value di kolom tertentu
@@ -16,4 +16,7 @@
 - **.shape** : mendapatkan dimensi data
 - **.value_counts()** : melihat jumlah data unik per variabel
 - **.replace([..],[..])** : mengganti x dengan y
-- 
+- **.reset_index(drop=True)**
+- **.info(memory_usage=False)** : menemukan missing value
+- **.corr()** : korelasi antar fitur
+- **.corr().abs()** : korelasi antar fitur
