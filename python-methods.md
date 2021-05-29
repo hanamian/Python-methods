@@ -1,5 +1,4 @@
 # Python-methods
-
 - **.drop_duplictes()** atau **.drop_duplicates(['nama_kolom'])** : menghapus data yang duplikat
 - **.sort_values('...', ascending=False)** : sort data dari yang terakhir
 - **.isnull().sum().sum()** : mengetahui jumlah total missing value
@@ -20,3 +19,9 @@
 - **.info(memory_usage=False)** : menemukan missing value
 - **.corr()** : korelasi antar fitur
 - **.corr().abs()** : korelasi antar fitur
+- **math.pi(a)** : 3.1415
+- **math.ceil(a)** : pembulatan ke atas (result integer)
+- **math.floor(a)** : pembulatan ke bawah (result integer)
+- **math.fabs(a)** : nilai absolute (tanpa tanda - atau +) (result float)
+- **math.sqrt(a)** : akar kuadrat (result float)
+- **math.pow(x,y)** : x pangkat y (result float)
